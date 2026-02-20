@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Monochrome placeholder image 1">
+  <rect width="1200" height="900" fill="#111"/>
+  <rect x="110" y="120" width="980" height="660" fill="#1f1f1f"/>
+  <rect x="150" y="170" width="420" height="520" fill="#f4f4f4"/>
+  <rect x="610" y="170" width="440" height="240" fill="#3a3a3a"/>
+  <rect x="610" y="450" width="440" height="240" fill="#808080"/>
+</svg>

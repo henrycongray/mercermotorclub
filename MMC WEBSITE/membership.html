@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Membership | Mercer Motor Club</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="site-nav">
+      <a class="nav-brand" data-transition="true" href="index.html">Mercer Motor Club</a>
+      <div class="nav-links">
+        <a data-transition="true" href="about.html">About</a>
+        <a data-transition="true" href="membership.html">Membership</a>
+        <a data-transition="true" href="gallery.html">Gallery</a>
+        <a data-transition="true" href="member-login.html">Member Access</a>
+      </div>
+    </nav>
+
+    <main class="page narrow">
+      <h1>Membership Application</h1>
+      <p class="lead">Applications are reviewed discreetly. Accepted members are contacted directly.</p>
+
+      <form id="membership-form" class="form-shell">
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required />
+        </div>
+
+        <div class="field">
+          <label for="instagram">Instagram</label>
+          <input id="instagram" name="instagram" type="text" required />
+        </div>
+
+        <div class="field">
+          <label for="affiliation">NYU affiliation</label>
+          <input id="affiliation" name="affiliation" type="text" required />
+        </div>
+
+        <div class="field">
+          <label for="vehicle">Vehicle (optional)</label>
+          <input id="vehicle" name="vehicle" type="text" />
+        </div>
+
+        <div class="field">
+          <label for="draw">What draws you to MMC?</label>
+          <textarea id="draw" name="draw" required></textarea>
+        </div>
+
+        <label class="checkbox" for="guidelines">
+          <input id="guidelines" type="checkbox" required />
+          <span>I agree to Mercer Motor Club conduct guidelines.</span>
+        </label>
+
+        <button type="submit">Submit Application</button>
+        <p id="membership-confirmation" class="hidden" aria-live="polite"></p>
+      </form>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

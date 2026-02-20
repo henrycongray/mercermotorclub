@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Monochrome placeholder image 4">
+  <rect width="1200" height="900" fill="#0d0d0d"/>
+  <rect x="110" y="150" width="980" height="600" fill="#f1f1f1"/>
+  <rect x="180" y="220" width="840" height="460" fill="#191919"/>
+  <ellipse cx="600" cy="450" rx="290" ry="130" fill="#757575"/>
+</svg>
