@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Member Access | Mercer Motor Club</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="site-nav">
+      <a class="nav-brand" data-transition="true" href="index.html">Mercer Motor Club</a>
+      <div class="nav-links">
+        <a data-transition="true" href="about.html">About</a>
+        <a data-transition="true" href="membership.html">Membership</a>
+        <a data-transition="true" href="gallery.html">Gallery</a>
+        <a data-transition="true" href="member-login.html">Member Access</a>
+      </div>
+    </nav>
+
+    <main class="page narrow">
+      <h1>Member Access</h1>
+      <p class="lead">Approved members may view next meet details.</p>
+
+      <form id="member-login-form" class="form-shell">
+        <div class="field">
+          <label for="member-password">Password</label>
+          <input id="member-password" type="password" required />
+        </div>
+        <button type="submit">Enter</button>
+        <p id="member-message" class="lead" aria-live="polite"></p>
+      </form>
+
+      <section id="member-content" class="hidden member-details">
+        <h2>Upcoming Meet</h2>
+        <p>Thursday, 10:30 PM</p>
+        <p>Lower Manhattan. Final coordinate released two hours prior.</p>
+        <p>Dress: monochrome. Conduct standards enforced.</p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
